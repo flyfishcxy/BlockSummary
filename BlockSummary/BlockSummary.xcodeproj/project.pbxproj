@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		35861B0F1ED1679400B6CAD7 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35861B0E1ED1679400B6CAD7 /* main.m */; };
+		35861B121ED1679400B6CAD7 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 35861B111ED1679400B6CAD7 /* AppDelegate.m */; };
+		35861B151ED1679400B6CAD7 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35861B141ED1679400B6CAD7 /* ViewController.m */; };
+		35861B181ED1679400B6CAD7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35861B161ED1679400B6CAD7 /* Main.storyboard */; };
+		35861B1A1ED1679400B6CAD7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 35861B191ED1679400B6CAD7 /* Assets.xcassets */; };
+		35861B1D1ED1679400B6CAD7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 35861B1B1ED1679400B6CAD7 /* LaunchScreen.storyboard */; };
+		35861B241ED168D000B6CAD7 /* EditViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 35861B231ED168D000B6CAD7 /* EditViewController.m */; };
 		359367971EB3237500CEC431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 359367961EB3237500CEC431 /* main.m */; };
 		359368001EB5DB9700CEC431 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 359367FF1EB5DB9700CEC431 /* main.m */; };
 		35997D8A1EB1826B0021D1E5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 35997D891EB1826B0021D1E5 /* main.m */; };
@@ -49,6 +56,18 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		35861B0B1ED1679400B6CAD7 /* 视图控制器反向传值.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "视图控制器反向传值.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		35861B0E1ED1679400B6CAD7 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		35861B101ED1679400B6CAD7 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		35861B111ED1679400B6CAD7 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		35861B131ED1679400B6CAD7 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		35861B141ED1679400B6CAD7 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		35861B171ED1679400B6CAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		35861B191ED1679400B6CAD7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		35861B1C1ED1679400B6CAD7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		35861B1E1ED1679400B6CAD7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		35861B221ED168D000B6CAD7 /* EditViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = EditViewController.h; path = ../BlockSummary/EditViewController.h; sourceTree = "<group>"; };
+		35861B231ED168D000B6CAD7 /* EditViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = EditViewController.m; path = ../BlockSummary/EditViewController.m; sourceTree = "<group>"; };
 		359367941EB3237500CEC431 /* BlockTypeDef */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlockTypeDef; sourceTree = BUILT_PRODUCTS_DIR; };
 		359367961EB3237500CEC431 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		359367FD1EB5DB9700CEC431 /* BlockAsFunctionParam */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = BlockAsFunctionParam; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,6 +87,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		35861B081ED1679400B6CAD7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		359367911EB3237500CEC431 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -99,6 +125,32 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		35861B0C1ED1679400B6CAD7 /* 视图控制器反向传值 */ = {
+			isa = PBXGroup;
+			children = (
+				35861B221ED168D000B6CAD7 /* EditViewController.h */,
+				35861B231ED168D000B6CAD7 /* EditViewController.m */,
+				35861B101ED1679400B6CAD7 /* AppDelegate.h */,
+				35861B111ED1679400B6CAD7 /* AppDelegate.m */,
+				35861B131ED1679400B6CAD7 /* ViewController.h */,
+				35861B141ED1679400B6CAD7 /* ViewController.m */,
+				35861B161ED1679400B6CAD7 /* Main.storyboard */,
+				35861B191ED1679400B6CAD7 /* Assets.xcassets */,
+				35861B1B1ED1679400B6CAD7 /* LaunchScreen.storyboard */,
+				35861B1E1ED1679400B6CAD7 /* Info.plist */,
+				35861B0D1ED1679400B6CAD7 /* Supporting Files */,
+			);
+			path = "视图控制器反向传值";
+			sourceTree = "<group>";
+		};
+		35861B0D1ED1679400B6CAD7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				35861B0E1ED1679400B6CAD7 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
 		359367951EB3237500CEC431 /* BlockTypeDef */ = {
 			isa = PBXGroup;
 			children = (
@@ -122,6 +174,7 @@
 				35997DA41EB18A4A0021D1E5 /* BlockDemo */,
 				359367951EB3237500CEC431 /* BlockTypeDef */,
 				359367FE1EB5DB9700CEC431 /* BlockAsFunctionParam */,
+				35861B0C1ED1679400B6CAD7 /* 视图控制器反向传值 */,
 				35997D861EB1826B0021D1E5 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -133,6 +186,7 @@
 				35997DA31EB18A490021D1E5 /* BlockDemo */,
 				359367941EB3237500CEC431 /* BlockTypeDef */,
 				359367FD1EB5DB9700CEC431 /* BlockAsFunctionParam */,
+				35861B0B1ED1679400B6CAD7 /* 视图控制器反向传值.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -172,6 +226,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		35861B0A1ED1679400B6CAD7 /* 视图控制器反向传值 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35861B211ED1679400B6CAD7 /* Build configuration list for PBXNativeTarget "视图控制器反向传值" */;
+			buildPhases = (
+				35861B071ED1679400B6CAD7 /* Sources */,
+				35861B081ED1679400B6CAD7 /* Frameworks */,
+				35861B091ED1679400B6CAD7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "视图控制器反向传值";
+			productName = "视图控制器反向传值";
+			productReference = 35861B0B1ED1679400B6CAD7 /* 视图控制器反向传值.app */;
+			productType = "com.apple.product-type.application";
+		};
 		359367931EB3237500CEC431 /* BlockTypeDef */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3593679A1EB3237500CEC431 /* Build configuration list for PBXNativeTarget "BlockTypeDef" */;
@@ -249,6 +320,11 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = chen;
 				TargetAttributes = {
+					35861B0A1ED1679400B6CAD7 = {
+						CreatedOnToolsVersion = 8.2;
+						DevelopmentTeam = FFJNMLHK32;
+						ProvisioningStyle = Automatic;
+					};
 					359367931EB3237500CEC431 = {
 						CreatedOnToolsVersion = 8.3.1;
 						DevelopmentTeam = FFJNMLHK32;
@@ -288,11 +364,22 @@
 				35997DA21EB18A490021D1E5 /* BlockDemo */,
 				359367931EB3237500CEC431 /* BlockTypeDef */,
 				359367FC1EB5DB9700CEC431 /* BlockAsFunctionParam */,
+				35861B0A1ED1679400B6CAD7 /* 视图控制器反向传值 */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		35861B091ED1679400B6CAD7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35861B1D1ED1679400B6CAD7 /* LaunchScreen.storyboard in Resources */,
+				35861B1A1ED1679400B6CAD7 /* Assets.xcassets in Resources */,
+				35861B181ED1679400B6CAD7 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		35997D831EB1826B0021D1E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -306,6 +393,17 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		35861B071ED1679400B6CAD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				35861B241ED168D000B6CAD7 /* EditViewController.m in Sources */,
+				35861B151ED1679400B6CAD7 /* ViewController.m in Sources */,
+				35861B121ED1679400B6CAD7 /* AppDelegate.m in Sources */,
+				35861B0F1ED1679400B6CAD7 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		359367901EB3237500CEC431 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -343,6 +441,22 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		35861B161ED1679400B6CAD7 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35861B171ED1679400B6CAD7 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		35861B1B1ED1679400B6CAD7 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				35861B1C1ED1679400B6CAD7 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		35997D911EB1826B0021D1E5 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -362,6 +476,32 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		35861B1F1ED1679400B6CAD7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFJNMLHK32;
+				INFOPLIST_FILE = "视图控制器反向传值/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.damai.iphone.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		35861B201ED1679400B6CAD7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = FFJNMLHK32;
+				INFOPLIST_FILE = "视图控制器反向传值/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.damai.iphone.---------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 		359367981EB3237500CEC431 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -545,6 +685,14 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		35861B211ED1679400B6CAD7 /* Build configuration list for PBXNativeTarget "视图控制器反向传值" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				35861B1F1ED1679400B6CAD7 /* Debug */,
+				35861B201ED1679400B6CAD7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		3593679A1EB3237500CEC431 /* Build configuration list for PBXNativeTarget "BlockTypeDef" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -561,6 +709,7 @@
 				359368021EB5DB9700CEC431 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		35997D801EB1826B0021D1E5 /* Build configuration list for PBXProject "BlockSummary" */ = {
 			isa = XCConfigurationList;
